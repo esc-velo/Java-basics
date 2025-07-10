@@ -18,7 +18,7 @@ public class Inheritance {
         Car car = (Car) v;
         car.playMusic();
 
-        // ❌ Invalid downCasting
+        // Invalid downCasting
         Vehicle plainVehicle = new Vehicle("Generic", "Truck");
 
         try {
@@ -30,6 +30,7 @@ public class Inheritance {
 
         Bike bike = new Bike("TVS", "Apache");
         bike.playMusic();
+        // No upcasting or downcasting here so runs well
     }
 
 }
@@ -51,6 +52,7 @@ class Vehicle
     }
 }
 
+// Inheriting Vehicle class
 class Car extends Vehicle
 {
 
@@ -59,6 +61,7 @@ class Car extends Vehicle
         super(company, vehicleName);
     }
 
+    // Overrides move() of Vehicle class
     public void move()
     {
         System.out.println("Car is moving");
@@ -70,6 +73,7 @@ class Car extends Vehicle
     }
 }
 
+// Inheriting Vehicle class
 class Bike extends Vehicle
 {
     Bike(String company, String vehicleName)
@@ -77,6 +81,7 @@ class Bike extends Vehicle
         super(company, vehicleName);
     }
 
+    // Overrides move() of Vehicle class
     public void move()
     {
         System.out.println("Bike is moving");

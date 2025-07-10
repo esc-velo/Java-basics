@@ -21,6 +21,12 @@ public class Polymorphism {
     }
 }
 
+// Abstract class: 
+// abstract keyword is used before 'class Shapes'.
+// it CANNOT be instantiated i.e an object of this class cannot be created
+// Why? because, abstract class may contain empty methods which means incomplete classes
+// This can cause undefined behavior
+
 abstract class Shapes {
     public void draw() {
         System.out.println("Drawing Shapes");
@@ -58,6 +64,7 @@ class Rectangle extends Shapes
         System.out.println("Area of Rectangle : "  + (length * breadth));
     }
 }
+
 class Triangle extends Shapes
 {
     int base, height;

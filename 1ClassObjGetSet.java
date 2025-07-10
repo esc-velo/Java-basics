@@ -16,7 +16,7 @@ public class ClassObjGetSet {
         books[4] = new Book("Harry Potter", "J K Rowling", 600);
         books[5] = new Book(books[4]);
 
-        books[0].setPrice(-50);
+        books[0].setPrice(-50); // Price set to 0
         books[0].setTitle("Rose in Bloom");
         System.out.println(STR."New Price of \{books[0].getTitle()} : \{books[0].getPrice()}");
 

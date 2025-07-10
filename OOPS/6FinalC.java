@@ -10,7 +10,7 @@ public class FinalC {
 }
 
 // final classes cannot be inherited
-class MathUtils
+final class MathUtils // Error! Task: Remove final keyword to make this code error-free
 {
     int n;
 

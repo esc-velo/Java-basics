@@ -1,17 +1,15 @@
-package masteryws;
-
-public class inheritance {
+public class Inheritance {
     public static void main(String[] args){
 
-        student student1 = new student("Don", 18, 2420156);
-        student student2 = new student("Kevin", 18, 2427012);
+        Student student1 = new Student("Don", 18, 2420156);
+        Student student2 = new Student("Kevin", 18, 2427012);
 
         student1.display();
         student2.display();
     }
 }
 
-class person{
+class Person{
     String name;
     int age;
 
@@ -21,7 +19,7 @@ class person{
     }
 }
 
-class student extends person{
+class Student extends Person{
     long roll_no;
     student(String name, int age, long roll_no){
         super(name,age);

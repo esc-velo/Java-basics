@@ -1,5 +1,3 @@
-package masteryws;
-
 public class smart_home_system {
     public static void main(String[] args)
     {

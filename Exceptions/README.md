@@ -10,13 +10,13 @@ Throwable is the superclass, followed by **Exception**, then **RuntimeException*
 
 Throwable [superclass] 
 \
-Error       (serious problems, not handled by code)
+Error       (serious problems, not handled by code) [subclass]
 \
-Exception    (can be handled in code)
+Exception    (can be handled in code) [subclass]
 \
-      Checked Exceptions (compile-time)
+            Checked Exceptions (compile-time) [subclass of exception]
       \
-      Unchecked Exceptions (runtime)
+            Unchecked Exceptions (runtime) [subclass of exception]
 
 
 #### Checked Exceptions:

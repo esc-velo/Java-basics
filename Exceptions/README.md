@@ -8,11 +8,11 @@ An exception is an event that disrupts the normal flow of a program's execution.
 - In Java, exceptions follow a hierarchy: 
 Throwable is the superclass, followed by **Exception**, then **RuntimeException**, and specific exceptions like **IOException, NullPointerException, etc.
 
-Throwable
- ├── Error           (serious problems, not handled by code)
- └── Exception       (can be handled in code)
-      ├── Checked Exceptions (compile-time)
-      └── Unchecked Exceptions (runtime)
+Throwable [superclass]
+Error       (serious problems, not handled by code)
+Exception    (can be handled in code)
+      Checked Exceptions (compile-time)
+      Unchecked Exceptions (runtime)
 
 
 #### Checked Exceptions:

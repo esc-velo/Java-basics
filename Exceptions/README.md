@@ -15,7 +15,7 @@ Throwable
       └── Unchecked Exceptions (runtime)
 
 
-#### **Checked Exceptions:
+#### Checked Exceptions:
 
 - Detected at **compile time**
 - Must be either handled or declared using `throws`
@@ -23,7 +23,7 @@ Throwable
     - `IOException`
     - `SQLException`
 
-#### **⚠️ Unchecked Exceptions:
+#### ⚠️ Unchecked Exceptions:
 - Detected at **runtime**
 - Handling is optional
 - Subclass of `RuntimeException`
@@ -32,7 +32,7 @@ Throwable
     - `ArrayIndexOutOfBoundsException`
     - `ArithmeticException`
 
-#### **❌ Errors (not exceptions):
+#### ❌ Errors (not exceptions):
 
 - Irrecoverable issues, like memory leaks
 - Not meant to be caught or handled
@@ -55,7 +55,7 @@ try {
 - `finally` always runs (even if exception is not thrown or caught), unless the JVM exits (e.g., `System.exit(0)`).
 
 
-## **Important keywords
+## Important keywords
 
 
 <center><h3>Throw keyword</h3></center>
@@ -121,4 +121,4 @@ then in main do this :
 ```java
 throw new MyException("Something went wrong!");
 ```
-
+check CustomException.java file to learn more.

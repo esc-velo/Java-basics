@@ -70,6 +70,7 @@ This repository provides a **comprehensive guide to core Java concepts**, helpin
 ## 📌 Contributing
 
 Found an error or want to add something? Feel free to open a pull request or raise an issue. Contributions are always welcome! 🙌
+Also this is still a "work in progress" repo
 
 ---
 
